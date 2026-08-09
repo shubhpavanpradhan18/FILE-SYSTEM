@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f5f0;
+  color: #1b2430;
+  font-family: Outfit, sans-serif;
+}
+
+main {
+  max-width: 1120px;
+  margin: auto;
+  padding: 52px 24px 80px;
+}
+
+header {
+  max-width: 640px;
+  margin-bottom: 32px;
+}
+
+.eyebrow {
+  color: #e54b2b;
+  font: 500 0.8rem "DM Mono", monospace;
+  letter-spacing: 0.16em;
+}
+
+h1 {
+  margin: 10px 0 18px;
+  font-size: clamp(2.5rem, 7vw, 4.6rem);
+  line-height: 0.95;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+header p:last-child {
+  color: #52606d;
+  font-size: 1.15rem;
+}
+
+.form-card,
+article {
+  border: 1px solid #dfe5dc;
+  background: #fff;
+  box-shadow: 0 8px 24px #27324410;
+}
+
+.form-card {
+  padding: 28px;
+  border-radius: 16px;
+}
+
+form {
+  display: grid;
+  gap: 17px;
+}
+
+label {
+  display: grid;
+  gap: 7px;
+  color: #40505c;
+  font-weight: 600;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #c7d0c3;
+  border-radius: 8px;
+  background: #fbfcf9;
+  font: inherit;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: transparent;
+  outline: 2px solid #78b7a4;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 17px;
+}
+
+button {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 7px;
+  background: #123b42;
+  color: white;
+  cursor: pointer;
+  font: 600 0.93rem Outfit, sans-serif;
+}
+
+button:hover {
+  background: #1d5861;
+}
+
+.form-actions,
+.card-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.secondary {
+  background: #e4ece7;
+  color: #123b42;
+}
+
+.message {
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #fff3d9;
+  color: #79510d;
+}
+
+.events {
+  margin-top: 46px;
+}

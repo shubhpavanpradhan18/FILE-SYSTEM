@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "title": "HackConnect 2026",
+    "description": "A 24-hour hackathon for student innovators.",
+    "date": "2026-09-15",
+    "venue": "Main Auditorium",
+    "maxTeams": 40,
+    "status": "Open"
+  }
+]
